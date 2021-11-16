@@ -25,3 +25,5 @@ ES6 Code Snippet
 Javascript Snippet
 
 Bracket Pair Colorizer
+
+Reference - https://www.youtube.com/watch?v=ZqW8JT1gt4U
