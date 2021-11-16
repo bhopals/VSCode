@@ -26,4 +26,6 @@ Javascript Snippet
 
 Bracket Pair Colorizer
 
-Reference - https://www.youtube.com/watch?v=ZqW8JT1gt4U
+ES7 React/Redux/GraphQl/React Native
+
+Reference- Lamadev
