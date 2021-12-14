@@ -1,0 +1,32 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+          {
+            "type": "node",
+            "request": "launch",
+            "name": "Jasmine All File",
+            "program": "${workspaceFolder}/node_modules/jasmine-ts/lib/index",
+            "args": ["--config=./spec/support/jasmine.json"],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen"
+          },
+          {
+            "type": "node",
+            "request": "launch",
+            "name": "Jasmine Current File",
+            "program": "${workspaceFolder}/node_modules/jasmine-ts/lib/index",
+            "args": ["${file}", "--config=./spec/support/jasmine.json"],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen"
+          },
+          {
+            "type": "node",
+            "request": "launch",
+            "name": "Jasmine Current Test Selected Spec",
+            "program": "${workspaceFolder}/node_modules/jasmine-ts/lib/index",
+            "args": ["${file}", "--config=./spec/support/jasmine.json", "--filter", "${selectedText}"],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen"
+          }
+    ]
+}
