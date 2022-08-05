@@ -12,6 +12,7 @@ function palinPerm(str) {
     const val = str[i];
     if (val.trim() !== "") {
       obj[val] = obj[val] + 1 || 1;
+      //obj[val] = (obj[val] || 0) + 1;
     }
   }
   console.log(obj);
